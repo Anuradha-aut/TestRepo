@@ -8,8 +8,8 @@ import java.util.Scanner;
  */
 public class TestStudentList {
     public static void main(String[] args) {
-        // TODO code application logic here
-        TestStudent[] students = new TestStudent[2];
+        // Changed the student array to 3
+        TestStudent[] students = new TestStudent[3];
         Scanner input = new Scanner(System.in);
         for(int i = 0; i < students.length; i++){
             System.out.println("Enter Student's name: ");
